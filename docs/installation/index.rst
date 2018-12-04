@@ -10,11 +10,7 @@ Installation Recipes
        :maxdepth: 1
 
        ../../../../quickstart/ce-docker-quickstart
-       single-node-client
-       clustered-deployment
-       clustered-deployment-ssl
-       clustered-deployment-sasl
-       connect-avro-jdbc
+       ../../../../tutorials/cp-demo/docs/index
        automatic-data-balancing
        replicator
 

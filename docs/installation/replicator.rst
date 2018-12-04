@@ -37,7 +37,7 @@ This topic provides a tutorial for running Replicator to replicate data between 
         Creating replicator-dc1-to-dc2 ... done
         Creating replicator-dc2-to-dc1 ... done
 
-#. Wait at least 1 minute for the services to come up.
+    .. tip:: It will take at least 1 minute for the services to come up. 
 
 
 Step 2: Create a Kafka topic with data
