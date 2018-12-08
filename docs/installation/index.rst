@@ -1,19 +1,18 @@
 .. _cp-docker-install:
 
-Docker Installation Recipes
-===========================
+Install Using Docker Images
+============================
 
-This section provides installation recipes for using specific |cp| features on Docker.
+You can install |cp| by using Docker images. You can install the entire platform or individual components. 
 
-Installation Recipes
-    .. toctree::
-       :maxdepth: 1
+Available Images
+----------------
+.. include:: ../includes/image-description.rst
 
-       ../../../../quickstart/ce-docker-quickstart
-       ../../../../tutorials/cp-demo/docs/index
-       automatic-data-balancing
-       replicator
+For more information, see :ref:`image_reference`.
 
+Considerations
+--------------
 
 You should consider the following before using the Docker images.
 
@@ -50,3 +49,18 @@ Supported Java
 
 Untested Features
     The images are not currently tested on Docker Swarm.
+
+
+Tutorials and Demos
+-------------------
+
+Examples are :cp-docker-examples:`available on GitHub|examples` for many components. The
+following tutorials leverage these examples and will help you get started.
+
+.. toctree::
+       :maxdepth: 1
+
+       ../../../../quickstart/ce-docker-quickstart
+       ../../../../tutorials/cp-demo/docs/index
+       automatic-data-balancing
+       replicator
